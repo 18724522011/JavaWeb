@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="day01_servlet_demo2_servlet_new:war exploded" />
+      <artifact name="day03_request:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -37,22 +37,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day02_servlet_class" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\JavaWebs\day03_request" />
+      <recent name="C:\Users\Administrator\WebstormProjects\JavaWebs" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="day01_servlet_demo2_servlet_new:war exploded">
+        <artifact name="day02_servlet_class:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/day02_servlet_class_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -115,7 +126,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="day01_servlet_demo2_servlet_new:war exploded" />
+          <artifact name="day02_servlet_class:war exploded" />
         </option>
       </method>
     </configuration>
@@ -217,6 +228,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598336684849</updated>
       <workItem from="1598336706050" duration="11434000" />
+      <workItem from="1598602437795" duration="70000" />
+      <workItem from="1598602552766" duration="662000" />
     </task>
     <servers />
   </component>
@@ -240,65 +253,69 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="835" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1598345342353" />
-    <state x="809" y="212" key="FileChooserDialogImpl" timestamp="1598337057390">
+    <state x="809" y="212" key="FileChooserDialogImpl" timestamp="1598603212810">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="809" y="212" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1598337057390" />
-    <state width="787" height="32" key="GridCell.Tab.0.bottom" timestamp="1598345510798">
+    <state x="809" y="212" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1598603212810" />
+    <state width="837" height="160" key="GridCell.Tab.0.bottom" timestamp="1598603215851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.0.center" timestamp="1598345510797">
+    <state width="837" height="160" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598603215851" />
+    <state width="837" height="160" key="GridCell.Tab.0.center" timestamp="1598603215851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1598345510797" />
-    <state width="787" height="32" key="GridCell.Tab.0.left" timestamp="1598345510797">
+    <state width="837" height="160" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1598603215851" />
+    <state width="837" height="160" key="GridCell.Tab.0.left" timestamp="1598603215851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1598345510797" />
-    <state width="787" height="32" key="GridCell.Tab.0.right" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1598603215851" />
+    <state width="837" height="160" key="GridCell.Tab.0.right" timestamp="1598603215851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.1.bottom" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1598603215851" />
+    <state width="837" height="160" key="GridCell.Tab.1.bottom" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.1.center" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.1.center" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.1.left" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.1.left" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.1.right" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.1.right" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.2.bottom" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.2.bottom" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.2.center" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.2.center" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.2.left" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.2.left" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
-    <state width="787" height="32" key="GridCell.Tab.2.right" timestamp="1598345510798">
+    <state width="837" height="160" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
+    <state width="837" height="160" key="GridCell.Tab.2.right" timestamp="1598603215852">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="787" height="32" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1598345510798" />
+    <state width="837" height="160" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1598603215852" />
     <state x="365" y="3" key="SettingsEditor" timestamp="1598343850970">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="365" y="3" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1598343850970" />
-    <state x="104" y="77" key="new project wizard" timestamp="1598345276030">
+    <state x="552" y="356" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598603107108">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="104" y="77" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1598345276030" />
+    <state x="552" y="356" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.860@0.0.1440.860" timestamp="1598603107108" />
+    <state x="114" y="21" key="new project wizard" timestamp="1598603302594">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="114" y="21" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1598603302594" />
   </component>
 </project>

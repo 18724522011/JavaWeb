@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day01_servlet_demo/day01_servlet_demo.iml" filepath="$PROJECT_DIR$/day01_servlet_demo/day01_servlet_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01_servlet_demo2_servlet_new/day01_servlet_demo2_servlet_new.iml" filepath="$PROJECT_DIR$/day01_servlet_demo2_servlet_new/day01_servlet_demo2_servlet_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_servlet_class/day02_servlet_class.iml" filepath="$PROJECT_DIR$/day02_servlet_class/day02_servlet_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_request/day03_request.iml" filepath="$PROJECT_DIR$/day03_request/day03_request.iml" />
     </modules>
   </component>
 </project>
