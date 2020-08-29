@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+    <% out.write("dfsdafwewewedsf");%>
+  <%! int a=5; %>
+  <%="nanaan"%>
   </body>
 </html>
