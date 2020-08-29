@@ -11,8 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-    <% out.write("dfsdafwewewedsf");%>
-  <%! int a=5; %>
-  <%="nanaan"%>
+    <% out.write("dfsdafwewewedsf");%><%-- service字符输出--%>
+  <%! int a=5; %><%-- 声明成员--%>
+  <%="nanaan"%><%-- 输出--%>
   </body>
 </html>
