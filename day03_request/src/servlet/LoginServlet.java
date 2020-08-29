@@ -29,7 +29,9 @@ public class LoginServlet extends HttpServlet
         UserDao dao=new UserDaoImpl();
          User user=null;
         try{
-        user = dao.login(loginUser);} catch (Exception e)
+        user = dao.login(loginUser);
+        }
+        catch (Exception e)
         {
             e.printStackTrace();
         }
