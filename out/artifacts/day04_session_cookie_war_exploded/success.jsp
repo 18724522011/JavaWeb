@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<%=session.getAttribute("user")+"<Strong>欢迎您</Strong>"%><br>
+<h1><%=session.getAttribute("user")+"欢迎您"%></h1><br>
 success
 </body>
 </html>
