@@ -11,14 +11,12 @@
         }
     </script>
     <style>
-
         div{
             color: red;
         }
     </style>
 </head>
-<body >
-
+<body>
 <form action="/loginServlet" method="post">
     <table>
         <tr>
@@ -44,5 +42,6 @@
 </form>
 <div><%=request.getAttribute("login_error") == null?"":request.getAttribute("login_error")%></div>
 <div><%=request.getAttribute("cc_error") == null?"":request.getAttribute("cc_error")%></div>
+
 </body>
 </html>
