@@ -41,7 +41,7 @@ public class User
     }
 
     public String getBirthday() {
-        if (this.birthday !=null){
+        if (birthday !=null){
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             return sdf.format(birthday);
 

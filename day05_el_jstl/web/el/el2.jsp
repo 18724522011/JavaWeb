@@ -21,7 +21,6 @@
     user.setName("张三");
     user.setBirthday(new Date());
     request.setAttribute("u", user);
-
     List<String> list = new ArrayList<>();
     list.add("aaa");
     list.add("bbb");
