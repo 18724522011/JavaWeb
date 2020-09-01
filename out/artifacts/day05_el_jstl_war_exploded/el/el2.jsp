@@ -19,6 +19,7 @@
     User user = new User();
     user.setAge(13);
     user.setName("张三");
+
     user.setBirthday(new Date());
     request.setAttribute("u", user);
     List<String> list = new ArrayList<>();

@@ -1,6 +1,6 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.neusoft.User" %>
+<%@ page import="com.neusofts.User" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="java.util.HashMap" %><%--
   Created by IntelliJ IDEA.
@@ -19,6 +19,7 @@
     User user = new User();
     user.setAge(13);
     user.setName("张三");
+
     user.setBirthday(new Date());
     request.setAttribute("u", user);
     List<String> list = new ArrayList<>();

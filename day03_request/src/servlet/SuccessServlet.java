@@ -1,6 +1,6 @@
 package servlet;
 
-import com.neusoft.servlet.domain.User;
+import com.neusofts.servlet.domain.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

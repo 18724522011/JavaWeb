@@ -11,9 +11,9 @@
 <%--c:if
   1、 属性 test 必须属性， 接受的是boolean表达式
     一般 test配合 el表达式一起使用
-    2、 没有else部分， 想要的话需要在定义一个 c:if
+    2、 没有else部分， 想要的话需要在定义一个 c:if false不显示
 --%>
-<c:if test="fasle">
+<c:if test="true">
     <h1>还有一个月就过节了</h1>
 </c:if>
 <%

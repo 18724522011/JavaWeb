@@ -32,7 +32,9 @@ count:循环次数
 
 %>
 <c:forEach items="${list}" var="str" varStatus="s">
-    ${s.index}------${s.count}    ${str}
+    ${s.count}---
+    ${s.index}---
+    ${str}----
 </c:forEach>
 </body>
 </html>

@@ -1,8 +1,8 @@
 package servlet;
 
-import com.neusoft.servlet.dao.UserDao;
-import com.neusoft.servlet.dao.impl.UserDaoImpl;
-import com.neusoft.servlet.domain.User;
+import com.neusofts.servlet.dao.UserDao;
+import com.neusofts.servlet.dao.impl.UserDaoImpl;
+import com.neusofts.servlet.domain.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
